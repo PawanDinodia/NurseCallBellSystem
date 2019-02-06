@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/the_icon"
+            android:padding="8dp"
+            android:src="@drawable/ip_address_icon" />
+
+        <EditText
+            android:id="@+id/startup_ip_ed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/enter_ip_address"
+            android:padding="8dp" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/the_icon"
+            android:padding="8dp"
+            android:id="@+id/startup_ip_right_wrong"
+            android:src="@drawable/wrong" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/the_icon"
+            android:padding="8dp"
+            android:src="@drawable/port" />
+
+        <EditText
+            android:id="@+id/startup_port_ed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/enter_port"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/startup_port_right_wrong"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/the_icon"
+            android:padding="8dp"
+            android:src="@drawable/wrong" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="8dp"
+        android:background="@color/fade"
+        android:padding="8dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="8dp">
+        <Button
+            android:id="@+id/startup_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/go_btn"
+            android:padding="8dp"
+            android:text="@string/back"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/startup_done_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/go_btn"
+            android:padding="8dp"
+            android:text="@string/done"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

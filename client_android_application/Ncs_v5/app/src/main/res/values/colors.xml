@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#54A62C</color>
+    <color name="topColor1">#6CCC3D</color>
+    <color name="topColor2">#FF5722</color>
+    <color name="topColor3">#54A62C</color>
+    <color name="white">#fff</color>
+    <color name="fade">#ccc</color>
+    <color name="transparent">#0fff</color>
+
+    <color name="color_one">@color/topColor3</color>
+    <color name="color_two">#F7B018</color>
+    <color name="color_thr">#FF5722</color>
+    <color name="color_for">#03A9F4</color>
+    <color name="color_fiv">#99FF0113</color>
+    <color name="color_six">#145096</color>
+    <color name="color_svn">#6CCC3D</color>
+    <color name="color_egt">#172838</color>
+    <color name="color_nin">#11906A</color>
+    <color name="color_ten">#8F6D63</color>
+    <color name="color_elv">#2D2D30</color>
+</resources>

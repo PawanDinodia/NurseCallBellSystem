@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--main_layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+<!--catagory-->
+        <!--catagory_head-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/patient_info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#3000" />
+        </LinearLayout>
+        <!--catagory_head_ends-->
+<!--catagory_list-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables"
+                android:id="@+id/patient_name_ll">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="6dp"
+                    android:padding="5dp"
+                    android:src="@drawable/patient_name_icon"
+                    android:contentDescription="@string/the_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/patient_name"
+                    android:textSize="20sp" />
+            </LinearLayout>
+<!--catagory_list_ends-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#1000"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"/>
+<!--catagory_list-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables"
+                android:id="@+id/registration_ll">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="6dp"
+                    android:padding="5dp"
+                    android:src="@drawable/registration_no_icon"
+                    android:contentDescription="@string/the_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/registration_no"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+<!--catagory_list_ends-->
+
+        <!--catagory_head-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/theme_info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#3000" />
+        </LinearLayout>
+        <!--catagory_head_ends-->
+<!--catagory_list        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="6dp"
+                    android:padding="5dp"
+                    android:src="@drawable/night_mode"
+                    android:contentDescription="@string/the_icon" />
+
+                <CheckBox
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:padding="10dp"
+                    android:text="@string/night_mode"
+                    android:textSize="20sp"
+                    android:id="@+id/night_mode_chk"/>
+            </LinearLayout>
+<!--catagory_list_ends-->
+        <!--catagory_head-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/ward_info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#3000" />
+        </LinearLayout>
+        <!--catagory_head_ends-->
+<!--catagory_list        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                tools:ignore="UseCompoundDrawables"
+                android:id="@+id/bed_no_ll">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/bed"
+                    android:padding="5dp"
+                    android:layout_margin="6dp"
+                    android:contentDescription="@string/the_icon" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/bed_no"
+                    android:padding="10dp"/>
+            </LinearLayout>
+<!--catagory_list_ends-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#1000"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"/>
+<!--catagory_list-->
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                tools:ignore="UseCompoundDrawables"
+                  android:id="@+id/ward_name_ll">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ward"
+                    android:padding="5dp"
+                    android:layout_margin="6dp"
+                    android:contentDescription="@string/the_icon" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/ward_name"
+                    android:padding="10dp"/>
+            </LinearLayout>
+<!--catagory_list_ends-->
+        <!--catagory_head-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/server_info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#3000" />
+        </LinearLayout>
+        <!--catagory_head_ends-->
+<!--catagory_list        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                tools:ignore="UseCompoundDrawables"
+                android:id="@+id/ip_address_ll">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ip_address_icon"
+                    android:padding="5dp"
+                    android:layout_margin="6dp"
+                    android:contentDescription="@string/the_icon" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/ip_address"
+                    android:padding="10dp"/>
+            </LinearLayout>
+<!--catagory_list_ends        -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#1000"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"/>
+<!--catagory_list        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                tools:ignore="UseCompoundDrawables"
+                android:id="@+id/port_ll">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/port"
+                    android:padding="5dp"
+                    android:layout_margin="6dp"
+                    android:contentDescription="@string/the_icon" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/port_no"
+                    android:padding="10dp"/>
+            </LinearLayout>
+<!--catagory_list_ends        -->
+        <!--catagory_head-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/about"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#3000" />
+        </LinearLayout>
+        <!--catagory_head_ends-->
+<!--catagory_list        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                tools:ignore="UseCompoundDrawables"
+                android:id="@+id/about_ll">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/info"
+                    android:padding="5dp"
+                    android:layout_margin="6dp"
+                    android:contentDescription="@string/the_icon" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/about"
+                    android:padding="10dp"/>
+            </LinearLayout>
+<!--catagory_list_ends-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#1000"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"/>
+    </LinearLayout><!--main_layout_ends-->
+</ScrollView>

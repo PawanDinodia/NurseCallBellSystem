@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Ncs_v5</string>
+    <string name="nopatient">No Patient</string>
+    <string name="the_icon">the_icon</string>
+    <string name="no_sensor">No Sensor</string>
+    <string name="temp_icon">temp-icon</string>
+    <string name="hum_icon">hum-icon</string>
+    <string name="connection_display">connection_display</string>
+    <string name="patient_info">Patient info</string>
+    <string name="ward_info">Ward Info</string>
+    <string name="theme_info">Theme Info</string>
+    <string name="server_info">Server Info</string>
+    <string name="about_app">Online documentation can be found out at https://github.com/PawanDinodia/NurseCallBellSystem</string>
+    <string name="about">About</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="dialog_title">Dialog Title</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="cancel">Cancel</string>
+    <string name="okay">Okay</string>
+    <string name="dialog_text_checker">dialog_text_checker</string>
+
+    <!--fields-->
+    <string name="fields">fields</string>
+
+    <string name="patient_name">Patient Name</string>
+    <string name="registration_no">Registration no.</string>
+    <string name="bed_no">Bed no.</string>
+    <string name="ip_address">Ip Address</string>
+    <string name="port_no">Port no.</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="ward_name">Ward Name</string>
+    <string name="enter_ip_address">Enter Ip Address</string>
+    <string name="enter_port">Enter Port Number</string>
+    <string name="enter_ward">Enter Ward Name</string>
+    <string name="enter_bed">Enter Bed No.</string>
+    <string name="request_info">Hey! we need some information</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="back">back</string>
+
+</resources>

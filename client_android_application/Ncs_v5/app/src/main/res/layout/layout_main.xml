@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dinodia.pwn.com.ncs_v5.MainActivity">
+
+
+    <!--info-container-->
+    <LinearLayout
+        android:id="@+id/info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ward_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/ward_name"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/online_offline_iv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/connection_display"
+                android:src="@drawable/green_dot" />
+
+            <TextView
+                android:id="@+id/bed_no_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bed_no"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sensor_container_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+            <!--temp-container-->
+            <LinearLayout
+                android:id="@+id/temp_container_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/temp_iv"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/temp_icon"
+                    android:src="@drawable/temp" />
+
+                <TextView
+                    android:id="@+id/temp_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/no_sensor"
+                    android:textSize="18sp" />
+            </LinearLayout><!--temp-container-ends-->
+            <!--hum-container-->
+            <LinearLayout
+                android:id="@+id/hum_container_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/hum_iv"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/hum_icon"
+                    android:src="@drawable/hum" />
+
+                <TextView
+                    android:id="@+id/hum_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/no_sensor"
+                    android:textSize="18sp" />
+            </LinearLayout><!--hum-container-ends-->
+        </LinearLayout><!--sensor-container-ends-->
+    </LinearLayout><!--info-container-ends-->
+
+    <!--Alarm-Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/alarm_btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bell_off" />
+    </LinearLayout>
+    <!--Alarm-Container -->
+
+
+</LinearLayout>

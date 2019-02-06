@@ -1,0 +1,6 @@
+package dinodia.pwn.com.ncs_v5;
+
+
+public enum RunTimeSettings {
+    SETTINGS_ADD,SETTINGS_REMOVE,SETTINGS_ALARM_ONN,SETTINGS_ALARM_OFF,MAIN_FRAGMENT,SETTING_FRAGMENT
+}
