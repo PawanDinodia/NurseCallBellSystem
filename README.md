@@ -28,8 +28,15 @@ In a hospital environment whenever a patient in need of staff, she/he press a bu
   * Great themes can be used to fit the luxery envirnment of the hospital.
   * Any suitable Sound can be set for the alarm, which will be very pleasing, remove un-necessory noise and help to remove panics.
 ## ScreenShots
- ### [Client](https://github.com/PawanDinodia/NurseCallBellSystem/tree/master/client_android_application/ScreenShots)
- ### [Server](https://github.com/PawanDinodia/NurseCallBellSystem/tree/master/server_java_desktop_application/Screen_shots)
+ ### Server
+    ![ScreenShot](https://github.com/PawanDinodia/NurseCallBellSystem/blob/master/server_java_desktop_application/Screen_shots/ss1.png)
+    ![ScreenShot](https://github.com/PawanDinodia/NurseCallBellSystem/blob/master/server_java_desktop_application/Screen_shots/ss2.png)
+ ### Client
+    ![ScreenShot](https://github.com/PawanDinodia/NurseCallBellSystem/blob/master/client_android_application/ScreenShots/Highly_customizable.png)
+    ![ScreenShot](https://github.com/PawanDinodia/NurseCallBellSystem/blob/master/client_android_application/ScreenShots/Screenshot_2019-04-09-15-54-18-886_dinodia.pwn.com.ncs_v5.png)
+    ![ScreenShot](https://github.com/PawanDinodia/NurseCallBellSystem/blob/master/client_android_application/ScreenShots/Screenshot_2019-04-09-15-56-06-387_dinodia.pwn.com.ncs_v5.png)
+    ![ScreenShot](https://github.com/PawanDinodia/NurseCallBellSystem/blob/master/client_android_application/ScreenShots/Screenshot_2019-04-09-15-57-23-174_android.png)
+    ![ScreenShot](https://github.com/PawanDinodia/NurseCallBellSystem/blob/master/client_android_application/ScreenShots/multiple_themes.png)
   
 ### HELP US TO MAKE THIS PROJCET BETTER
  * Fork this project
