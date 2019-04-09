@@ -27,6 +27,9 @@ In a hospital environment whenever a patient in need of staff, she/he press a bu
   * Logs can be made very easily and can be shown as beautiful graphical views.
   * Great themes can be used to fit the luxery envirnment of the hospital.
   * Any suitable Sound can be set for the alarm, which will be very pleasing, remove un-necessory noise and help to remove panics.
+## ScreenShots
+ ### [Client](https://github.com/PawanDinodia/NurseCallBellSystem/tree/master/client_android_application/ScreenShots)
+ ### [Server](https://github.com/PawanDinodia/NurseCallBellSystem/tree/master/server_java_desktop_application/Screen_shots)
   
 ### HELP US TO MAKE THIS PROJCET BETTER
  * Fork this project
